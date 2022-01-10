@@ -1,5 +1,8 @@
 function oddCount(n){
-    // your code here
+
+    let myNum = n / 2;
+    myNum = Math.floor(myNum, 0);
+    return myNum;
 }
 
 console.log(oddCount(7)); // 3, i.e [1, 3, 5]
