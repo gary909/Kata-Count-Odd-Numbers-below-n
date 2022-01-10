@@ -1,5 +1,4 @@
 function oddCount(n){
-
     let myNum = n / 2;
     myNum = Math.floor(myNum, 0);
     return myNum;
